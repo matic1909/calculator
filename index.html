@@ -6,8 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <p>Take a look at the console. So far, this project is command line only.</p>
+  <main>
+    <div class="calculator">
+        <div class="screen">
+          <div class="screen-current">0</div>
+        </div>
+        <div class="button-grid">
+          <button
+            class="btn-red span-2"
+            id="clearBtn"
+          >
+            CLEAR
+          </button>
+          <button
+            class="btn-blue span-2"
+            id="deleteBtn"
+          >
+            DELETE
+          </button>
+          <button class="number-button" id="7">7</button>
+            <button class="number-button" id="8">8</button>
+            <button class="number-button" id="9">9</button>
+            <button class="operation-button">÷</button>
+
+            <button class="number-button" id="4">4</button>
+            <button class="number-button" id="5">5</button>
+            <button class="number-button" id="6">6</button>
+            <button class="operation-button">×</button>
+
+            <button class="number-button" id="2">1</button>
+            <button class="number-button" id="2">2</button>
+            <button class="number-button" id="3">3</button>
+            <button class="operation-button">-</button>
+
+            <button id="point-button">.</button>
+            <button class="number-button">0</button>
+            <button id="equal">=</button>
+            <button class="operation-button">+</button>         
+        </div>    
+      </div>
+  </main>  
 </body>
 </html>
